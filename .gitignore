@@ -1,0 +1,17 @@
+# Blacklist everything
+*
+
+# whitelist all directories...
+!*/
+
+# whitelist git configuration files...
+!.git*
+
+# blacklist visual studio stuff
+.vs/
+
+# whitelist file types...
+!*.h
+!*.cpp
+!*.txt
+
